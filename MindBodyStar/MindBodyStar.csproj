@@ -161,6 +161,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Services\Credentials.cs" />
     <Compile Include="Services\StarRewardService.cs" />
     <Compile Include="Web References\AppointmentService\Reference.cs">
       <AutoGen>True</AutoGen>
