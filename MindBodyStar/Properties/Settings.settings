@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WebApplication1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WebApplication1_SiteService_Site_x0020_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://api.mindbodyonline.com/0_5/SiteService.asmx</Value>
+    </Setting>
+    <Setting Name="WebApplication1_ClassService_Class_x0020_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://api.mindbodyonline.com/0_5/ClassService.asmx</Value>
+    </Setting>
+    <Setting Name="WebApplication1_ClientService_Client_x0020_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://api.mindbodyonline.com/0_5/ClientService.asmx</Value>
+    </Setting>
+    <Setting Name="WebApplication1_AppointmentService_Appointment_x0020_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://api.mindbodyonline.com/0_5/AppointmentService.asmx</Value>
+    </Setting>
+    <Setting Name="WebApplication1_StaffService_Staff_x0020_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://api.mindbodyonline.com/0_5/StaffService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

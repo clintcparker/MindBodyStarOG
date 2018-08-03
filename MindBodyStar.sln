@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBodyStarTest", "MindBodyStarTest\MindBodyStarTest.csproj", "{FBBD0D4D-AAB0-45C7-9D7D-62811F0B8983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindBodyStar", "MindBodyStar\MindBodyStar.csproj", "{3040CAE3-AD32-4896-A762-E12D1EA78F3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBBD0D4D-AAB0-45C7-9D7D-62811F0B8983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBD0D4D-AAB0-45C7-9D7D-62811F0B8983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBD0D4D-AAB0-45C7-9D7D-62811F0B8983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBD0D4D-AAB0-45C7-9D7D-62811F0B8983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3040CAE3-AD32-4896-A762-E12D1EA78F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3040CAE3-AD32-4896-A762-E12D1EA78F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3040CAE3-AD32-4896-A762-E12D1EA78F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3040CAE3-AD32-4896-A762-E12D1EA78F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

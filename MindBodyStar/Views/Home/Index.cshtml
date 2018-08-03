@@ -1,0 +1,47 @@
+﻿@model WebApplication1.Models.LeaderboardModel
+
+@{
+    ViewBag.Title = "Leaderboard";
+    Layout = "~/Views/_LeaderboardLayoutPage.cshtml";
+}
+
+<div style="text-align: center">
+<h1>
+    Leader Board Last @Model.getTotalDays()
+    @if (Model.getTotalDays() == 1)
+    {
+        <span>Day</span>
+    }
+    else
+    {
+        <span>Days</span>
+    }
+</h1>
+<h2> @Model.StartDate.ToShortDateString() - @Model.EndDate.ToShortDateString() </h2>
+</div>
+<div style="width: 100%; padding-left: 20%; padding-top: 20px">
+    <div style="display: table">
+        @{
+            Random rnd = new Random();
+
+            foreach (var client in Model.ClientList)
+            {
+                var fontNumber = (rnd.Next(1, 100) % 3)+1;
+                var colorNumber = (rnd.Next(1, 100) % 6) + 1;
+                var sizeNumber = (rnd.Next(1, 100) % 3) + 1;
+
+                <div style="display: table-row">
+                    <div class="name-@fontNumber color-@colorNumber size-@sizeNumber" style="display: table-cell">@client.Name : </div>
+                    <div style="display: table-cell">
+                        @for (var i = 0; i < client.NumberofVisits; i++)
+                        {
+                            var starNumber = (rnd.Next(1, 100) % 6) + 1;
+
+                            <div class="star-@starNumber" title="@client.NumberofVisits">&nbsp;</div>
+                        }
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
