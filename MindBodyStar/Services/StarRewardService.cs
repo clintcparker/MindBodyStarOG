@@ -15,8 +15,8 @@ namespace WebApplication1.Services
 
             var sourceCredentials = new ClassService.SourceCredentials()
             {
-                SourceName = "",
-                Password = "",
+                SourceName = Credentials.SourceName,
+                Password = Credentials.Password,
                 SiteIDs = new int[] { -99 }
             };
 
@@ -38,8 +38,8 @@ namespace WebApplication1.Services
 
             var sourceCredentials = new ClassService.SourceCredentials()
             {
-                SourceName = "",
-                Password = "",
+                SourceName = Credentials.SourceName,
+                Password = Credentials.Password,
                 SiteIDs = new int[] { -99 }
             };
             var userCredentials = new UserCredentials() { Password = "apitest1234", Username = "Siteowner", SiteIDs = new int[] { -99 } };

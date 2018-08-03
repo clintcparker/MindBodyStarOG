@@ -61,14 +61,14 @@ namespace MindBodyStarTest
         private readonly List<Client> _clients;
         private static ClientService.SourceCredentials clientSourceCredentials = new ClientService.SourceCredentials()
         {
-            SourceName = "",
-            Password = "",
+            SourceName = Credentials.SourceName,
+            Password = Credentials.Password,
             SiteIDs = new int[] { -99 }
         };
         private static ClassService.SourceCredentials classSourceCredentials = new ClassService.SourceCredentials()
         {
-            SourceName = "",
-            Password = "",
+            SourceName = Credentials.SourceName,
+            Password = Credentials.Password,
             SiteIDs = new int[] { -99 }
         };
 
